@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/action.php">
+        <label for="username">email :</label>
+        <input type="email" id="username" placeholder = "ENTER EMAIL"><br>
+        <label for="password">password :</label>
+        <input type="password" id="password" placeholder = "ENTER PASSWORD"><br>
+        <button type="reset">RESET</button>
+    </form>
+
+    <form action="https://www.google.com/search">
+    
+        <input type="text"  placeholder="ENTER SEARCH TERM" name = "q"><br>
+        <button type="submit">SEARCH</button>
+        <input type="checkbox" name="age" id="1" checked/>
+        <label for="1">I am over 18</label>
+    </form>
+
+    <form action="/action.php">
+    <input type="radio" name="fruit" id="apple " value="apple"/>
+    <label for="apple">Apple </label>
+    <input type="radio" name="fruit" id="banana" value="banana"/>
+    <label for="banana">Banana </label>
+    <input type="radio" name="fruit" id="mango" value="mango"/>
+    <label for="mango">Mango </label><br>
+    <button type="submit">SUBMIT</button>
+    </form>
+
+    <form action="/action.php">
+        multiple car favorites
+    <input type="checkbox" name="vehicle" id="car" value="mercedez"/>
+    <label for="car">Mercedez</label>
+    <input type="checkbox" name="vehicle" id="car" value="bmw"/>
+    <label for="car">BMW</label>
+    <input type="checkbox" name="vehicle" id="car" value="audi"/>
+    <label for="car">Audi</label><br>
+    <button type="submit">SUBMIT</button>
+    </form> 
+
+    <form action ="action.php">
+        <h3>SELECT YOUR FAVORITE ANIMAL</h3>
+<select name="animal" id="animal">
+    <option value="dog">Dog</option>
+    <option value="cat">Cat</option>
+    <option value="hamster">hamster </option>
+    <option value="spider">Spider</option>
+    <option value="goldfish">Goldfish</option>
+</select>
+<button type="submit">SUBMIT</button>
+    </form>
+
+    <form action="/action.php">
+        <input type="range" name="vol" min="0" max="100">
+        <label for="volume">Volume</label><br>
+        <button type="submit">SUBMIT</button>
+
+        <label for="feedback">Feedback:</label>
+        <textarea name="feedback" id="feedback"></textarea>  
+    </form>
+</html>
